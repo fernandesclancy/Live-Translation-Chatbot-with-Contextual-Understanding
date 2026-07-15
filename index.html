@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Help Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>Help</h3>
+        </div>
+        <div id="chat-window" class="chat-window">
+            <div class="chat-output" id="chat-output">
+                <!-- Initial messages from the chatbot -->
+                <div class="message bot-message">
+                    <span class="sender-name">Bot</span>: Hi! How can I assist you today? 😊
+                </div>
+                <div class="message bot-message">
+                    <span class="sender-name">Bot</span>: Here are some things I can help you with:
+                    <ul>
+                        <li>Information about college admissions</li>
+                        <li>Course schedules</li>
+                        <li>Library hours and services</li>
+                        <li>Contact details for departments</li>
+                        <li>Exam dates and results</li>
+                        <li>Translating voice to text and text to voice</li>
+                        <li>Translation support for multiple languages, including Hindi, Kannada, Malayalam, and Telugu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message..." />
+            <button id="send-btn" class="btn send-btn">Send</button>
+            <select id="language-select" class="language-select">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="kn">Kannada</option>
+                <option value="ml">Malayalam</option>
+                <option value="te">Telugu</option>
+            </select>
+            <button id="voice-btn" class="btn voice-btn">🎤</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
