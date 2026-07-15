@@ -2,7 +2,7 @@
 
 A voice-based chatbot built for educational institution websites that answers college-related queries — admissions, course schedules, library hours, department contacts, exam dates — in **5 Indian languages**: Hindi, English, Kannada, Malayalam, and Telugu.
 
-![Live Translation Chatbot](chatbot.jpeg)
+![Live Translation Chatbot](Chatbot.jpeg)
 
 ---
 
